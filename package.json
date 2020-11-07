@@ -1,5 +1,5 @@
 {
-  "name": "measure-units",
+  "name": "@kavi4/measure-units",
   "version": "1.0.0",
   "description": "Solution for converting measure units",
   "main": "dist/bundle.cjs.js",
