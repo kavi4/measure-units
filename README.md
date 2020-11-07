@@ -15,7 +15,7 @@ Solution for converting you measure units
 
 For each measure unit group we should define dictionary of codes, then define coefficient map and create converter
 
-###Dictionary with measure unit codes
+### Dictionary with measure unit codes
 
 Its can be just object with constants:
 
@@ -28,7 +28,7 @@ export default {
 }
 ```
 
-###Coefficient map 
+### Coefficient map 
 
 Coefficient map define measure units relation.
 All coefficients should be sorted (desc). 
@@ -66,7 +66,7 @@ map.exclude([
 
 ```
 
-###Create math instance
+### Create math instance
 
 We use math class because javascript have't normal support operator overloading.
 
@@ -104,7 +104,7 @@ class BigNumberMath extends IMath {
 }
  ```
 
-###Create MeasureUnitConverter
+### Create MeasureUnitConverter
 
 MeasureUnitConverter used for converting units from group
 
