@@ -9,7 +9,7 @@ Solution for converting you measure units
 
 ## Install
 
-``` npm i measure-units```
+``` npm i @kavi4/measure-units ```
 
 ## Usage
 
