@@ -1,0 +1,18 @@
+version: 2.1
+orbs:
+  node: circleci/node@1.1
+  coverage-reporter: codacy/coverage-reporter@11.3.10
+jobs:
+  build:
+    executor:
+      name: node/default
+      tag: '10'
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run: npm install
+      - run: npm run test
+      - coverage-reporter/send_report:
+          coverage-reports: 'coverage/clover.xml, coverage/lcov.info'
+          project-token: $CODACY_PROJECT_TOKEN
