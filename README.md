@@ -1,4 +1,7 @@
 # measure-units
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/eff1c8c68d8d42f8982f1c76b4678233)](https://app.codacy.com/gh/kavi4/measure-units?utm_source=github.com&utm_medium=referral&utm_content=kavi4/measure-units&utm_campaign=Badge_Grade_Settings)
+
 Solution for converting you measure units
 
 ## Features
