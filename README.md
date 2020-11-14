@@ -1,7 +1,11 @@
 # measure-units
 
+![npm (scoped)](https://img.shields.io/npm/v/@kavi4/measure-units?color=green)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/eff1c8c68d8d42f8982f1c76b4678233)](https://app.codacy.com/gh/kavi4/measure-units?utm_source=github.com&utm_medium=referral&utm_content=kavi4/measure-units&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://app.codacy.com/project/badge/Coverage/01185666553447a5be0c6b52eb43e77e)](https://www.codacy.com/gh/kavi4/measure-units/dashboard?utm_source=github.com&utm_medium=referral&utm_content=kavi4/measure-units&utm_campaign=Badge_Coverage)
+![npm bundle size (scoped)](https://img.shields.io/bundlephobia/min/@kavi4/measure-units)
+![npm](https://img.shields.io/npm/dm/@kavi4/measure-units)
+![NPM](https://img.shields.io/npm/l/@kavi4/measure-units)
 
 Solution for converting you measure units
 
