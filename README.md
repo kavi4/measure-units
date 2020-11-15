@@ -55,6 +55,7 @@ export default new CoefficientMap([
 ```
 
 If you are using third party coefficient map you can include only units than you are using with help `include` and `exclude` methods:
+
 ```js
 import {Units, MassCoefficientMap} from 'some-package'
 
@@ -72,6 +73,16 @@ map.exclude([
 
 // result map contains  Units.KILOGRAM and Units.MILLIGRAM
 
+```
+
+If you are using numeric library you can transform coefficients with method map:
+
+```js
+import coefficients from './coefficients'
+
+coefficients =  coefficients.map((value,ket,map)=>{
+    return new BigNumber(value)
+})
 ```
 
 ### Create math instance
@@ -128,6 +139,7 @@ const massConverter = new MeasureUnitConverter({
 ```
 
 Then we can join all our converters in one facade. MeasureUnitFacade implements `IMeasureUnitConverter` and we can use facade as converter
+
 ```js
 import {MeasureUnitFacade} from 'measure-units'
 import Units from './units'
@@ -147,6 +159,7 @@ Unit.convertToPreferUnit(5000, Units.GRAM)
 
 If we store measure unit values in objects we can write adapter.
 For example :
+
 ```js
 
 class ConverterAdapter {
