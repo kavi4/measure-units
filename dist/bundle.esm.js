@@ -113,6 +113,22 @@ class CoefficientMap extends Map {
       }
     });
   }
+  /**
+   * Map implementation
+   * @param func
+   * @returns {*}
+   */
+
+
+  map(func) {
+    let result = new this.constructor();
+
+    for (let key of this.keys()) {
+      result.set(key, func(this.get(key), key, this));
+    }
+
+    return result;
+  }
 
 }
 
